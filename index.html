@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Badawy | Motion Graphics & Video Editor</title>
+    <meta name="description" content="Portfolio of Ahmed Badawy Genidy, a Motion Graphics Designer & Video Editor from Fayoum, Egypt.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Setup Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Cinematic Loader Bars -->
+    <div class="loader-bars">
+        <div class="bar bar-top"></div>
+        <div class="bar bar-bottom"></div>
+        <div class="loader-logo glitch" data-text="AB">AB</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring">
+        <span class="cursor-label"></span>
+    </div>
+
+    <!-- Film Grain Overlay -->
+    <div class="film-grain"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo glitch-frame hover-magnet" data-text="AB">AB</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link hover-magnet">About</a>
+                <a href="#services" class="nav-link hover-magnet">Services</a>
+                <a href="#work" class="nav-link hover-magnet">Work</a>
+                <a href="#experience" class="nav-link hover-magnet">Experience</a>
+                <a href="#contact" class="nav-link hover-magnet">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-links">
+            <a href="#about" class="m-link">About</a>
+            <a href="#services" class="m-link">Services</a>
+            <a href="#work" class="m-link">Work</a>
+            <a href="#experience" class="m-link">Experience</a>
+            <a href="#contact" class="m-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Main Content wrapper for Lenis -->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- HERO SECTION -->
+            <section class="hero" id="home">
+                <div id="particles-js" class="hero-particles"></div>
+                <div class="hero-content">
+                    <div class="hero-label mono-text type-anim" id="hero-label"></div>
+                    <h1 class="hero-title glitch-massive" data-text="AHMED BADAWY">AHMED BADAWY</h1>
+                    <p class="hero-subtitle">Crafting Visual Stories That Convert</p>
+                    <div class="hero-ctas">
+                        <a href="#work" class="btn btn-primary hover-shimmer cta-magnet" data-cursor="play">
+                            <span class="btn-text">▶ Watch Reel</span>
+                        </a>
+                        <a href="#about" class="btn btn-outline hover-shimmer cta-magnet">
+                            <span class="btn-text">View Work &darr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                    <span class="mono-text">SCROLL</span>
+                </div>
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section class="about" id="about">
+                <div class="container split-layout">
+                    <div class="about-left" data-speed="0.9">
+                        <div class="portrait-wrapper">
+                            <div class="conic-border"></div>
+                            <img src="assets/images/ahmed.jpg" alt="Ahmed Badawy" class="portrait-img">
+                            <div class="floating-badge orbit-anim">
+                                <svg viewBox="0 0 100 100" width="100" height="100">
+                                    <path id="curve" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" fill="transparent" />
+                                    <text font-size="12" fill="#fff" letter-spacing="3">
+                                        <textPath href="#curve">3+ YEARS EXPERIENCE •</textPath>
+                                    </text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-right">
+                        <p class="eyebrow mono-text">[ ABOUT ME ]</p>
+                        <h2 class="section-title">Not just an editor &mdash;<br><span class="text-violet">A visual storyteller.</span></h2>
+                        <p class="body-text">
+                            I'm Ahmed Badawy, a Video Editor & Motion Graphics artist from Fayoum, Egypt. With 3+ years shaping short-form content for TikTok, Instagram Reels, and YouTube Shorts, I blend cinematic precision with digital instinct. By day I'm a Dental Intern &mdash; by night I'm cutting frames that stop the scroll.
+                        </p>
+                        <div class="stats-row">
+                            <div class="stat">
+                                <h3 class="stat-num"><span class="counter" data-target="3">0</span>+</h3>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3 class="stat-num"><span class="counter" data-target="2">0</span></h3>
+                                <p class="stat-label">Countries Served</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-icon hover-scale" data-cursor="view"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                            <a href="#" class="social-icon hover-scale" data-cursor="view"><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M22.06 6.42A2 2 0 0 0 20.2 5C17.37 4 12 4 12 4s-5.37 0-8.2.98A2 2 0 0 0 1.94 6.4C1 8.5 1 12 1 12s0 3.5.94 5.58A2 2 0 0 0 3.8 19C6.63 20 12 20 12 20s5.37 0 8.2-.98a2 2 0 0 0 1.86-1.44C23 15.5 23 12 23 12s0-3.5-.94-5.58Z"></path><polygon points="10 15 15 12 10 9 10 15"></polygon></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES SECTION -->
+            <section class="services" id="services">
+                <div class="services-header container">
+                    <p class="eyebrow mono-text">[ WHAT I DO ]</p>
+                    <h2 class="section-title">My Expertise</h2>
+                </div>
+                
+                <div class="h-scroll-container">
+                    <div class="h-scroll-wrapper">
+                        <!-- Card 1 -->
+                        <div class="service-card" data-cursor="view">
+                            <div class="sc-icon">
+                                <svg viewBox="0 0 24 24" class="svg-draw"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><line x1="8" y1="4" x2="8" y2="20"></line><line x1="16" y1="4" x2="16" y2="20"></line><line x1="4" y1="8" x2="8" y2="8"></line><line x1="4" y1="16" x2="8" y2="16"></line><line x1="16" y1="8" x2="20" y2="8"></line><line x1="16" y1="16" x2="20" y2="16"></line></svg>
+                            </div>
+                            <h3>Short-Form Editing</h3>
+                            <p>High-retention editing for TikTok, Reels, & Shorts.</p>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="service-card" data-cursor="view">
+                            <div class="sc-icon">
+                                <svg viewBox="0 0 24 24" class="svg-draw"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            </div>
+                            <h3>Motion Graphics</h3>
+                            <p>After Effects magic to elevate visual storytelling.</p>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="service-card" data-cursor="view">
+                            <div class="sc-icon">
+                                <svg viewBox="0 0 24 24" class="svg-draw"><circle cx="12" cy="12" r="10"></circle><path d="M12 2v20"></path><path d="M12 12h10"></path></svg>
+                            </div>
+                            <h3>Color Grading</h3>
+                            <p>Cinematic looks that set the mood for every frame.</p>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="service-card" data-cursor="view">
+                            <div class="sc-icon">
+                                <svg viewBox="0 0 24 24" class="svg-draw"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                            </div>
+                            <h3>Content Strategy</h3>
+                            <p>Hooks, pacing, and SEO to maximize engagement.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WORK SECTION -->
+            <section class="work" id="work">
+                <div class="container">
+                    <div class="work-header">
+                        <div class="work-title-wrap">
+                            <p class="eyebrow mono-text">[ SELECTED WORK ]</p>
+                            <h2 class="section-title">The Vault</h2>
+                        </div>
+                        <div class="work-filters">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="reels">Reels</button>
+                            <button class="filter-btn" data-filter="motion">Motion</button>
+                            <button class="filter-btn" data-filter="brand">Brand</button>
+                        </div>
+                    </div>
+
+                    <div class="bento-grid">
+                        <!-- Featured (2x width) -->
+                        <div class="bento-item featured filter-reels" data-cursor="play" onclick="window.open('https://www.youtube.com/shorts/beEIF9bUIHQ', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/beEIF9bUIHQ/maxresdefault.jpg" alt="Insurance Funds" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="The biggest mistake you can make with your insurance funds — withdrawing them alone. Mahdi Kabha explains why you need an expert by your side.">Insurance Funds with Mahdi</h3>
+                                <span class="tag">YouTube Short / Finance</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 2 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/DuP_OVHtgCI', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/DuP_OVHtgCI/maxresdefault.jpg" alt="Protect Your Funds" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Withdrew your insurance funds without an advisor? You might be hit with a tax you never saw coming.">Protect Your Funds</h3>
+                                <span class="tag">YouTube Short / Finance</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 3 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/eFgm-ZYEYTE', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/eFgm-ZYEYTE/maxresdefault.jpg" alt="Calculated Steps" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="It's not just about saving taxes — every step becomes calculated and secure.">Calculated Steps</h3>
+                                <span class="tag">YouTube Short / Finance</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 4 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/7DiwnoYXkSI', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/7DiwnoYXkSI/maxresdefault.jpg" alt="Flash Engine" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Before your next oil change — there's a step most people skip. Flash Engine">Flash Engine</h3>
+                                <span class="tag">YouTube Short / Automotive</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 5 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/-htpObGKT2Y', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/-htpObGKT2Y/maxresdefault.jpg" alt="Liqui Moly" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Car problems that cost thousands — there are smarter, more affordable solutions. Discover Liqui Moly.">Liqui Moly Solutions</h3>
+                                <span class="tag">YouTube Short / Automotive</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 6 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/VI0W_8jGSJk', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/VI0W_8jGSJk/maxresdefault.jpg" alt="Digelines Initiative" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="An initiative uniting the Ministry of Communications and the Military Academy — Digelines">Digelines Initiative</h3>
+                                <span class="tag">YouTube Short / Tech</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 7 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/xPlXwwxg0Mc', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/xPlXwwxg0Mc/maxresdefault.jpg" alt="Make-up Course" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Every girl deserves to master her own look — join the personal makeup course">Make-up Course</h3>
+                                <span class="tag">YouTube Short / Beauty</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 8 -->
+                        <div class="bento-item filter-brand" data-cursor="play" onclick="window.open('https://youtube.com/shorts/ICS1cWeObhE', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/ICS1cWeObhE/maxresdefault.jpg" alt="Taatheer Ads" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Your workshop deserves more clients — Taatheer creates the ads that deliver real results">Taatheer Ads</h3>
+                                <span class="tag">YouTube Short / Marketing</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 9 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/KJ07TQuSPd8', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/KJ07TQuSPd8/maxresdefault.jpg" alt="Marwan Group" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Why navigate a mortgage alone when experts can save you time and money? Marwan Group">Marwan Group</h3>
+                                <span class="tag">YouTube Short / Finance</span>
+                            </div>
+                        </div>
+
+                        <!-- Regular Item 10 -->
+                        <div class="bento-item filter-reels" data-cursor="play" onclick="window.open('https://youtube.com/shorts/_4kmYrsRbKI', '_blank')">
+                            <div class="vid-wrap">
+                                <img src="https://i.ytimg.com/vi/_4kmYrsRbKI/maxresdefault.jpg" alt="Touch Up Course" class="vid-thumb">
+                                <div class="scanline-overlay"></div>
+                                <div class="play-badge"><svg viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg></div>
+                            </div>
+                            <div class="work-info">
+                                <h3 title="Learn makeup the right way from the start — the Touch Up course">Touch Up Course</h3>
+                                <span class="tag">YouTube Short / Beauty</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE SECTION -->
+            <section class="experience" id="experience">
+                <div class="container container-narrow">
+                    <p class="eyebrow mono-text text-center">[ TIMELINE ]</p>
+                    <h2 class="section-title text-center">The Journey</h2>
+
+                    <div class="timeline-container">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-line-glow"></div>
+                        
+                        <!-- Timeline Item 1 -->
+                        <div class="timeline-item left">
+                            <div class="tl-dot"></div>
+                            <div class="tl-content">
+                                <span class="tl-date mono-text">2024 &mdash; Now</span>
+                                <h3>Freelance Video Editor</h3>
+                                <span class="tl-tag text-violet">Egypt & Palestine</span>
+                                <p>Working directly with international clients to deliver high-retention content and cinematic edits.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Item 2 -->
+                        <div class="timeline-item right">
+                            <div class="tl-dot"></div>
+                            <div class="tl-content">
+                                <span class="tl-date mono-text">Currently</span>
+                                <h3>Dental Intern</h3>
+                                <span class="tl-tag text-cyan">Faculty of Dentistry, Fayoum</span>
+                                <p>Balancing medical precision by day with creative perfection by night.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline Item 3 -->
+                        <div class="timeline-item left">
+                            <div class="tl-dot"></div>
+                            <div class="tl-content">
+                                <span class="tl-date mono-text">2023 &mdash; 2024</span>
+                                <h3>Video Editor</h3>
+                                <span class="tl-tag">@ Sail (Saudi Agency)</span>
+                                <p>Lead editor for commercial projects, promotional material, and social media campaigns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS SECTION -->
+            <section class="skills" id="skills">
+                <div class="container">
+                    <p class="eyebrow mono-text text-center">[ ARSENAL ]</p>
+                    <h2 class="section-title text-center">Tools & Skills</h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-ring-wrap">
+                            <svg viewBox="0 0 100 100" class="skill-svg">
+                                <circle cx="50" cy="50" r="45" class="bg-ring"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress-ring" data-pct="95" stroke="var(--violet)"></circle>
+                            </svg>
+                            <div class="skill-inner">
+                                <span class="skill-pct">95%</span>
+                                <span class="skill-name">After Effects</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-ring-wrap">
+                            <svg viewBox="0 0 100 100" class="skill-svg">
+                                <circle cx="50" cy="50" r="45" class="bg-ring"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress-ring" data-pct="98" stroke="var(--cyan)"></circle>
+                            </svg>
+                            <div class="skill-inner">
+                                <span class="skill-pct">98%</span>
+                                <span class="skill-name">Short-Form</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-ring-wrap">
+                            <svg viewBox="0 0 100 100" class="skill-svg">
+                                <circle cx="50" cy="50" r="45" class="bg-ring"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress-ring" data-pct="88" stroke="#ff0055"></circle>
+                            </svg>
+                            <div class="skill-inner">
+                                <span class="skill-pct">88%</span>
+                                <span class="skill-name">Color Grading</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-ring-wrap">
+                            <svg viewBox="0 0 100 100" class="skill-svg">
+                                <circle cx="50" cy="50" r="45" class="bg-ring"></circle>
+                                <circle cx="50" cy="50" r="45" class="progress-ring" data-pct="80" stroke="#00ffaa"></circle>
+                            </svg>
+                            <div class="skill-inner">
+                                <span class="skill-pct">80%</span>
+                                <span class="skill-name">Copywriting</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-tags">
+                        <span class="skill-tag">Premiere Pro</span>
+                        <span class="skill-tag">DaVinci Resolve</span>
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">SEO</span>
+                        <span class="skill-tag">Audio Mixing</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TESTIMONIALS -->
+            <section class="testimonials">
+                <div class="marquee-wrapper">
+                    <div class="marquee-content">
+                        <!-- Duplicate content for infinite scroll -->
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-1">SA</div>
+                                <div class="q-info">
+                                    <h4>Salah Ali</h4>
+                                    <span>🇸🇦 Saudi Arabia</span>
+                                </div>
+                            </div>
+                            <p>"Ahmed transformed our agency's ad output. His edits retain viewership far above our previous benchmarks."</p>
+                        </div>
+                        
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-2">MO</div>
+                                <div class="q-info">
+                                    <h4>Mo Osama</h4>
+                                    <span>🇪🇬 Egypt</span>
+                                </div>
+                            </div>
+                            <p>"The best motion graphics artist I've worked with. He adds cinematic flair to even the simplest clips."</p>
+                        </div>
+                        
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-3">YT</div>
+                                <div class="q-info">
+                                    <h4>Yousef Tariq</h4>
+                                    <span>🇵🇸 Palestine</span>
+                                </div>
+                            </div>
+                            <p>"Creative, fast, and understands exactly what works for YouTube algorithms. Highly recommended."</p>
+                        </div>
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-1">SA</div>
+                                <div class="q-info">
+                                    <h4>Salah Ali</h4>
+                                    <span>🇸🇦 Saudi Arabia</span>
+                                </div>
+                            </div>
+                            <p>"Ahmed transformed our agency's ad output. His edits retain viewership far above our previous benchmarks."</p>
+                        </div>
+                        
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-2">MO</div>
+                                <div class="q-info">
+                                    <h4>Mo Osama</h4>
+                                    <span>🇪🇬 Egypt</span>
+                                </div>
+                            </div>
+                            <p>"The best motion graphics artist I've worked with. He adds cinematic flair to even the simplest clips."</p>
+                        </div>
+                        
+                        <div class="quote-card">
+                            <div class="q-header">
+                                <div class="avatar bg-3">YT</div>
+                                <div class="q-info">
+                                    <h4>Yousef Tariq</h4>
+                                    <span>🇵🇸 Palestine</span>
+                                </div>
+                            </div>
+                            <p>"Creative, fast, and understands exactly what works for YouTube algorithms. Highly recommended."</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section class="contact" id="contact">
+                <div class="aurora-bg">
+                    <div class="blob b1"></div>
+                    <div class="blob b2"></div>
+                    <div class="blob b3"></div>
+                </div>
+                
+                <div class="container relative z-10">
+                    <h2 class="contact-headline text-center blur-reveal">Ready to stop the scroll?</h2>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <a href="mailto:ex0di6.1@gmail.com" class="c-tile hover-shimmer" data-cursor="view">
+                                <span class="c-icon">📧</span>
+                                <div>
+                                    <span class="c-label mono-text">Email</span>
+                                    <span class="c-val">ex0di6.1@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:+201120765738" class="c-tile hover-shimmer" data-cursor="view">
+                                <span class="c-icon">📞</span>
+                                <div>
+                                    <span class="c-label mono-text">Phone / WhatsApp</span>
+                                    <span class="c-val">+20 112 076 5738</span>
+                                </div>
+                            </a>
+                            <div class="c-tile hover-shimmer">
+                                <span class="c-icon">📍</span>
+                                <div>
+                                    <span class="c-label mono-text">Location</span>
+                                    <span class="c-val">Fayoum, Egypt</span>
+                                </div>
+                            </div>
+                            <a href="https://youtube.com/@ex0di6" target="_blank" class="c-tile hover-shimmer" data-cursor="view">
+                                <span class="c-icon">🎬</span>
+                                <div>
+                                    <span class="c-label mono-text">YouTube</span>
+                                    <span class="c-val">@ex0di6</span>
+                                </div>
+                            </a>
+                            <a href="https://vimeo.com/user234608865" target="_blank" class="c-tile hover-shimmer" data-cursor="view">
+                                <span class="c-icon">🎥</span>
+                                <div>
+                                    <span class="c-label mono-text">Vimeo</span>
+                                    <span class="c-val">Portfolio</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="contact-form">
+                            <form id="form">
+                                <div class="form-group">
+                                    <input type="text" id="name" required class="f-input">
+                                    <label for="name" class="f-label">Your Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" required class="f-input">
+                                    <label for="email" class="f-label">Email Address</label>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message" rows="4" required class="f-input"></textarea>
+                                    <label for="message" class="f-label">Project Details</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary submit-btn cta-magnet">
+                                    <span class="btn-text">Send Message</span>
+                                    <svg viewBox="0 0 24 24" class="send-icon"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    <div class="spinner"></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container f-container">
+                    <p class="f-copy text-sm mono-text">&copy; 2025 Ahmed Badawy Genidy &mdash; Built with precision.</p>
+                    <div class="cinemagraph-element"></div>
+                    <button class="back-to-top" id="btt" data-cursor="view">
+                        <svg viewBox="0 0 24 24" class="up-arrow"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                        <svg viewBox="0 0 24 24" class="play-icon hidden"><path d="M8 5v14l11-7z"/></svg>
+                    </button>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <!-- tsParticles -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/engine@3.1.0/tsparticles.engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/basic@3.1.0/tsparticles.basic.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/interaction-particles-links@3.1.0/tsparticles.interaction.particles.links.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/interaction-external-grab@3.1.0/tsparticles.interaction.external.grab.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/interaction-external-repulse@3.1.0/tsparticles.interaction.external.repulse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/move-base@3.1.0/tsparticles.move.base.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/shape-circle@3.1.0/tsparticles.shape.circle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-color@3.1.0/tsparticles.updater.color.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-opacity@3.1.0/tsparticles.updater.opacity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/updater-size@3.1.0/tsparticles.updater.size.min.js"></script>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
