@@ -97,7 +97,7 @@ function typeLabel() {
 tsParticles.load("particles-js", {
     particles: {
         number: {
-            value: window.innerWidth > 768 ? 60 : 30,
+            value: window.innerWidth > 768 ? 60 : 15,
             density: { enable: true, value_area: 800 }
         },
         color: { value: ["#7c3aed", "#06b6d4"] },
@@ -113,7 +113,7 @@ tsParticles.load("particles-js", {
             anim: { enable: true, speed: 2, size_min: 0.1, sync: false }
         },
         links: {
-            enable: true,
+            enable: window.innerWidth > 768,
             distance: 150,
             color: "rgba(255,255,255,0.1)",
             opacity: 0.4,

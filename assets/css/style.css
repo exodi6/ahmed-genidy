@@ -753,6 +753,11 @@ img {
 }
 
 @media (max-width: 768px) {
+    /* Performance Fixes */
+    .film-grain { display: none !important; }
+    .aurora-bg { display: none !important; }
+    .conic-border { filter: none !important; animation: none !important; opacity: 1 !important; background: var(--violet); }
+
     .container { padding: 3rem 0; width: 92%; }
     .section-title { font-size: clamp(2.5rem, 8vw, 3rem); }
 
